@@ -1,0 +1,24 @@
+<a class="social-links" href=""><img src="first.jpg" alt=""></a>
+  <a class="social-links" href=""><img src="second.jpg" alt=""></a>
+  <a class="social-links" href=""><img src="third.jpg" alt=""></a>
+  <a class="social-links" href=""><img src="fourth.jpg" alt=""></a>
+
+
+
+#hashtag-content{
+    text-align: center;
+    margin: 20px auto;
+}
+.social-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-column-gap: 10px;
+    justify-items: stretch;
+    grid-auto-rows: 50vh;
+
+}
+
+.social-links > img{
+    width: 100%;
+    max-height: 100%;
+}
